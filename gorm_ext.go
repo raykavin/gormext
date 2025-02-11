@@ -1,4 +1,4 @@
-package pkg
+package gormext
 
 import (
 	"context"
@@ -10,7 +10,6 @@ import (
 	"gorm.io/gorm"
 )
 
-const SQLFileExtension = ".sql"
 
 // IRepository defines an interface for repository operations.
 type IRepository interface {

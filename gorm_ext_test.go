@@ -1,5 +1,5 @@
 // gorm_test.go
-package pkg
+package gormext
 
 import (
 	"context"
